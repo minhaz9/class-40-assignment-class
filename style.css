@@ -1,0 +1,70 @@
+section .jason_doe {
+  padding-top: 8rem;
+  background: white;
+}
+
+.start {
+  background: #f7f7f7;
+}
+
+.contact_section {
+  background: #f7f7f7;
+  padding: 3rem 0rem;
+}
+
+@media (max-width: 576px) {
+  .banner .container .row .col-lg-6 {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .banner .container .row .col-lg-6 .inner_div {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .card_section .container .row .col-sm-12 .card {
+    margin-top: 2rem;
+  }
+  .about_bottom .container .row .col-lg-3 {
+    margin-top: 1rem;
+  }
+  .jason_doe {
+    padding-top: 2rem !important;
+  }
+  .jason_doe .container .row .col-lg-3 {
+    margin-bottom: 4rem;
+  }
+  .jason_doe .container .row .col-lg-3 .inner_content .card .image img {
+    width: 50% !important;
+  }
+  .contact_section .container .row .col-lg-6 .card .inner_content form .row .top_space {
+    margin-top: 1rem !important;
+  }
+  .contact_section .container .row .col-lg-6 .inner_content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .jason_doe .container .row .col-md-3 .inner_content .card .image {
+    top: -1.5rem !important;
+  }
+  .jason_doe .container .row .col-md-3 .inner_content .card .image img {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .jason_doe .container .row .col-md-3 .inner_content .card .image {
+    top: -2rem !important;
+  }
+  .jason_doe .container .row .col-md-3 .inner_content .card .image img {
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .jason_doe .container .row .col-md-3 .inner_content .card .image {
+    top: -5.5rem !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
